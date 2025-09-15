@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    line-height: 1.65;
+    padding-bottom: 50px;
+}
+
+.container-satu {
+    width: 960px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.kolom-utama {
+    order: 2; 
+    flex: 3; 
+}
+
+.sidebar-satu {
+    order: 1;
+    flex: 1;
+}
+
+.sidebar-dua {
+    order: 3;
+    flex: 1;
+}
+
+
+.kolom-utama h2, .sidebar-satu h3, .sidebar-dua h3 {
+    color: #0d47a1;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+
+.kolom-utama img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.sidebar-satu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-satu li a {
+    text-decoration: none;
+    color: #1565c0;
+    display: block;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.2s ease;
+}
+
+.sidebar-satu li a:hover {
+    color: #0d47a1;
+    background-color: #f7f9fc;
+}
